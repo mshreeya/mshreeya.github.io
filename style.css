@@ -18,6 +18,7 @@ body {
 }
 
 .card {
+  width: 100vw;
   max-width: 340px;
   margin: auto;
   overflow-y: auto;
@@ -44,7 +45,7 @@ body {
 }
 
 .card[data-state="#experience"] {
-  height: 550px;
+  height: 480px;
 }
 
 .card.is-active .card-header {
